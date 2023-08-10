@@ -1,6 +1,6 @@
 /*
 
-易截图2：https://apps.apple.com/app/id1633186528
+易截图2：https://apps.apple.com/app/id1633186528 
 
 [rewrite_local]
 ^https?:\/\/(jietu6|1jietu)\.com\/apiv2\/user url script-response-body
