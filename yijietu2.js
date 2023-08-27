@@ -15,5 +15,5 @@ guding.info.group_id = "3";
 guding.info.vip = "1";
 guding.info.group = "2099-9-9";
 guding.info.nickname = "呆萌可爱小奶0";
-info.status:"永久会员";
+guding.info.status:"永久会员";
 $done({ body: JSON.stringify(guding) });
