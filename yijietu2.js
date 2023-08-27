@@ -10,10 +10,9 @@
 hostname = jietu6.com, 1jietu.com
 
 */
-var guding = JSON.parse($response.body);
-guding.info.group_id = "3";
-guding.info.vip = "1";
-guding.info.group = "2099-9-9";
-guding.info.nickname = "呆萌可爱小奶0";
-guding.info.status:"永久会员";
-$done({ body: JSON.stringify(guding) });
+var dxy = JSON.parse($response.body);
+dxy.info.group_id = "3";
+dxy.info.vip = "1";
+dxy.info.group = "2099-9-9";
+dxy.info.nickname = "呆萌可爱小奶0";
+$done({ body: JSON.stringify(dxy) });
