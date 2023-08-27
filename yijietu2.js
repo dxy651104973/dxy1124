@@ -5,6 +5,7 @@ if (objc.hasOwnProperty('info.group')) {
     objc.info.group = "永久会员";
 }
 
+
 objc.info.group = "永久会员";
 objc.info.group_id = "3";
 objc.info.vip = "1";
