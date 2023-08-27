@@ -1,8 +1,8 @@
 var objc = JSON.parse($response.body);
 
-if (objc.hasOwnProperty('info.group')) {
+if (objc.hasOwnProperty('group')) {
     // 修改 data_gfen 的值为 "9999999"
-    objc.info.group = "永久会员";
+    objc.group = "永久会员";
 }
 
 objc.info.group_id = "3";
