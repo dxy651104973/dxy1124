@@ -1,9 +1,6 @@
-var objc = JSON.parse($response.body);
+var dxy = JSON.parse($response.body);
 
-if (objc.hasOwnProperty('nickname')) {
-    // 修改 data_gfen 的值为 "9999999"
-    objc.nickname = "9999999";
-}
+dxy.data.gfen = "377182";
 
-$done({body: JSON.stringify(objc)});
+$done({body: JSON.stringify(dxy)});
 
