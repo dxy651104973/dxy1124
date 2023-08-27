@@ -1,4 +1,4 @@
-var dxy = JSON.parse($response.body);
+var dxy = JSON.parse($request.body);
 
 dxy.buy_quantity = "1";
 
