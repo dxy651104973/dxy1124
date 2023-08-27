@@ -1,3 +1,4 @@
+
 /*
 
 易截图2：https://apps.apple.com/app/id1633186528
@@ -10,7 +11,8 @@ hostname = jietu6.com, 1jietu.com
 
 */
 var guding = JSON.parse($response.body);
-info.group_id = "3";
-info.vip = "1";
-info.group = "呆萌可爱小奶0";
+guding.info.group_id = "3";
+guding.info.vip = "1";
+guding.info.group = "2099-9-9";
+guding.info.nickname = "呆萌可爱小奶0";
 $done({ body: JSON.stringify(guding) });
