@@ -1,5 +1,3 @@
-$done({ body: JSON.stringify(dxy) });
-
 var objc = JSON.parse($response.body);
 
 if (objc.hasOwnProperty('info.group')) {
