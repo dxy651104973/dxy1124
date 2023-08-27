@@ -13,7 +13,6 @@ hostname = jietu6.com, 1jietu.com
 var dxy = JSON.parse($response.body);
 dxy.info.group_id = "3";
 dxy.info.vip = "1";
-dxy.info.group = "2099-9-9";
-dxy.info.end_time:"2099-12-27";
+dxy.info.group = "永久会员";
 dxy.info.nickname = "呆萌可爱小奶0";
 $done({ body: JSON.stringify(dxy) });
