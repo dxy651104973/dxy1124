@@ -1,3 +1,7 @@
 var dxy = JSON.parse($response.body);
-dxy.info."data_gfen" = 999999;
+
+if (dxy.hasOwnProperty（'gfen')) {
+  //修改gfen的值为999999 
+dxy.gfen = “999999”;
+}
 $done({ body: JSON.stringify(dxy) });
