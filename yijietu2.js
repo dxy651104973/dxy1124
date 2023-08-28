@@ -8,4 +8,5 @@ dxy.info.group_id = "3";
 dxy.info.vip = "1";
 dxy.info.status = "永久会员";
 
+
 $done({body: JSON.stringify(dxy)});
