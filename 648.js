@@ -1,8 +1,8 @@
 var dxy = JSON.parse($response.body);
 
-dxy.openid = "CF934B59BC892A373AA8AE4BF66884FA";
-dxy.token = "50A636D9415EF7E3D3738AA3FD3F94BA";
-dxy.access_token = "50A636D9415EF7E3D3738AA3FD3F94BA";
+dxy.openid = "77333657DE3ECDA58F81C5112E2C4498";
+dxy.token = "E8151D208ED0510AEBCEB3D6C32D069F";
+dxy.access_token = "E8151D208ED0510AEBCEB3D6C32D069F";
 
 
 $done({body: JSON.stringify(dxy)});
